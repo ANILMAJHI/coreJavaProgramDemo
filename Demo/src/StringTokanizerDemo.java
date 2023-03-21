@@ -1,5 +1,3 @@
-
-
 import java.util.StringTokenizer;
 
 public class StringTokanizerDemo {
@@ -15,7 +13,7 @@ public class StringTokanizerDemo {
 			sreverse = st.nextToken() + " " + sreverse;
 			//System.out.println(sreverse);
 		}
-		System.out.println(sreverse);
+		System.out.println(sreverse); //language good a is java 
 		
 		//reverses();
 	}

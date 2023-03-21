@@ -13,7 +13,7 @@ public class IndexOfArrayListDemo {
 		al.add("Element4");
 
 		if (al.contains("Element2")) {
-			System.out.println("Element2 is present at the index " + al.indexOf("Element21"));
+			System.out.println("Element2 is present at the index " + al.indexOf("Element2"));
 		} else {
 			System.out.println("Element2 is not present in the list");
 		}

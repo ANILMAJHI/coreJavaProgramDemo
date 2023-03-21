@@ -19,7 +19,10 @@ public class CountString {
 				
 				// If char is present in charCountMap, incrementing it's count
 				// by 1
-				charCountMap.put(ch, charCountMap.get(ch) + 1);
+				
+				int count=charCountMap.get(ch);
+				charCountMap.put(ch,count + 1);
+				//charCountMap.put(ch, charCountMap.get(ch) + 1);
 			} else {
 				// If char is not present in charCountMap,
 				// putting this char to charCountMap with 1 as it's value
@@ -31,6 +34,6 @@ public class CountString {
 	}
 	public static void main(String[] args) {
 		// count each chrecter in a String
-		countCharecter("I love my country");
+		countCharecter("I love my countryi");
 	}
 }

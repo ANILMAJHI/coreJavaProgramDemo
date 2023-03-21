@@ -2,9 +2,8 @@
 public class NonRepeatingChar {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
-		String str="hell";
+		String str="hellow covid19 world";
 		
 		for(int i=0;i<str.length();i++)
 		{

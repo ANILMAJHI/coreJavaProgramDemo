@@ -7,14 +7,15 @@ public class ArmstrongNumber {
 		temp = num;
 		while (num > 0) {
 			i = num % 10;
-			num = num / 10;
+			
 			sum = sum + (i * i * i);
+			num = num / 10;
 
 		}
 		if (temp == sum) {
-			System.out.println("ArmstrongNumber");
+			System.out.println(temp+": ArmstrongNumber");
 		} else {
-			System.out.println("not ArmstrongNumber");
+			System.out.println(temp+":not ArmstrongNumber");
 		}
 
 	}

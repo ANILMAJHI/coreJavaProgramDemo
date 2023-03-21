@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class PairOfElements {
 
@@ -16,7 +17,7 @@ public class PairOfElements {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		findElements(new int[]{ 9, 6, 4, 12, 7, 10, 20 }, 16);
+		findElements(new int[]{ 9, 6, 4, 12, 7, 10, 5 }, 16);
 
 	}
 

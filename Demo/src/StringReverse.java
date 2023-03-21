@@ -23,7 +23,9 @@ public class StringReverse {
 //		}
 
 		char[] ch = s.toCharArray();
-		 for (int i = ch.length-1; i >= 0; i--) {
+		int chLeng=ch.length;
+		
+		 for (int i = chLeng-1; i >= 0; i--) {
 			 System.out.print(ch[i]);
 		 }
 		/*String[] splitStr=s.split(" ");

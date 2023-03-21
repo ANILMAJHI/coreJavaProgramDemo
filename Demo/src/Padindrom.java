@@ -4,7 +4,7 @@ public class Padindrom {
 	public static void main(String[] args) {
 
 		int i, sum = 0, temp;
-		int num = 121;
+		int num = 1991;
 		
 		temp = num;
 		while (num > 0) {
