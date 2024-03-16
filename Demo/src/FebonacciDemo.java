@@ -3,9 +3,9 @@ public class FebonacciDemo {
 
 	public static void main(String[] args) {
 
-		int n1=1,n2=2;
+		int n1=0,n2=1;
 		
-		for(int i=3;i<31;i++) 	
+		for(int i=3;i<11;i++) 	
 		{
 			int n3=n1+n2;
 			System.out.print(" "+n3);

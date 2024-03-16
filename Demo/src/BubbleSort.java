@@ -3,7 +3,7 @@ public class BubbleSort {
 	public static void main(String[] args) {
 
 		// create an int array we want to sort using bubble sort algorithm
-		int intArray[] = new int[] {8,2,6,1,5,3,2,4,0,9 };	//9 8 6 5 4 3 2 2 1 0 
+		int intArray[] = new int[] {8,2,6,1,5,3,2,4,0,9 };	//9 8 6 5 4 3 2 2 1 0 (10) 
 
 		// print array before sorting using bubble sort algorithm
 		System.out.println("Array Before Bubble Sort");
@@ -25,7 +25,7 @@ public class BubbleSort {
 		for (int i = 0; i < n; i++) {
 			for (int j = 1; j < (n - i); j++) {
 
-				if (intArray[j - 1] < intArray[j]) { //
+				if (intArray[j - 1] > intArray[j]) { //
 					// swap the elements!
 					temp = intArray[j - 1];
 					intArray[j - 1] = intArray[j];

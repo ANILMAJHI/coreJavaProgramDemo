@@ -7,6 +7,7 @@ public class CountString {
 		
 		// Creating a HashMap containing char as a key and occurrences as a
 		// value
+		
 		Map<Character, Integer> charCountMap = new HashMap<Character, Integer>();
 		
 		// Converting given string to char array

@@ -14,7 +14,7 @@ public class DeleteMiddle {
 		linkedList.add(3, "4");
 		linkedList.add(4, "58");
 		System.out.println(linkedList); // [1, 2, 3, 4, 5] // Direct removal of element at index 2
-		//linkedList.remove(2);
+		// linkedList.remove(2);
 		System.out.println(linkedList); // [1, 2, 4, 5] // Iterate list and remove element containing String "4"
 										//
 		Iterator listIterator = linkedList.iterator();
@@ -23,7 +23,7 @@ public class DeleteMiddle {
 		{
 			if ("4".equals(listIterator.next())) {
 
-				 listIterator.remove();
+				listIterator.remove();
 			}
 		}
 		System.out.println(linkedList);

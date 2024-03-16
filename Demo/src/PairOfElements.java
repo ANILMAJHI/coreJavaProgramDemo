@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class PairOfElements {
 
-	public static void findElements(int arr[], int no)
+	public static void findElements(int[] arr, int no)
 
 	{
 		for (int i = 0; i < arr.length; i++) {

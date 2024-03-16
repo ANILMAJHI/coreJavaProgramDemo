@@ -3,7 +3,7 @@ public class NonRepeatingChar {
 
 	public static void main(String[] args) {
 		
-		String str="hellow covid19 world";
+		String str="hello";
 		
 		for(int i=0;i<str.length();i++)
 		{

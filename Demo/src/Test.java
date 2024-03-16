@@ -2,30 +2,56 @@ import java.util.Arrays;
 
 public class Test {
 
-	public int[] reverse(int[] nums) throws Exception {
-		if (nums == null || nums.length < 1) {
-			throw new Exception("Num should not empty");
-		} else {
-			int[] reversed = new int[nums.length];
-			for (int i = 0; i < nums.length; i++) {
-				reversed[i] = nums[nums.length - 1 - i];
+	public static void main(String[] args) {
+		
+		
+
+		int[] l = { -21, -1, -2, -4, -5, 0, -5 };
+
+		String str = "tHis is java";
+		
+		int count=1;
+		//char ch[]=str.toCharArray();
+		for (int i = 0; i < str.length(); i++) {
+			if(str.charAt(i)==' ')
+			{
+				count++;
+				
 			}
-			return reversed;
+			
 		}
-	}
+		//System.out.println("word = "+(count)+" "+" space = "+(count-1));
 
-	public static void main(String[] args) throws Exception {
-		int a[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-		for (int i = 0; i < a.length / 10; i++) {
-			// System.out.println(a[i]);
-			int temp = a[i];
-			a[i] = a[a.length - 1 - i];
-			a[a.length - 1 - i] = temp;
+		for (int i = 0; i < l.length; i++) {
+
+			for (int j = i + 1; j < l.length; j++) {
+				if (l[i] == l[j]) {
+				//	System.out.println("Arrays duplicate no is: " + l[i]);
+				}
+			}
 		}
-		System.out.println(Arrays.toString(a));
+		int large = l[0];
+		for (int i = 0; i < l.length; i++) {
 
-		Test t = new Test();
-		int[] data = t.reverse(t.reverse(a));
-		System.out.println("Data :" + Arrays.toString((data)));
+			if (large < l[i]) {
+				large = l[i];
+			}
+
+		}
+		System.out.println("larage no is: " + large);
+
+		for (int i = str.length() - 1; i >= 0; i--) {
+			//System.out.println(str.charAt(i));
+
+		}
+
+		int temp;
+		for (int i = 0; i < l.length / 2; i++) {
+
+			temp = l[i];
+			l[i] = l[l.length - 1 - i];
+			l[l.length - 1 - i] = temp;
+		}
+		//System.out.println("Arrays reverse"+Arrays.toString(l));
 	}
 }

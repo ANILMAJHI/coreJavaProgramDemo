@@ -4,7 +4,7 @@ public class Padindrom {
 	public static void main(String[] args) {
 
 		int i, sum = 0, temp;
-		int num = 1991;
+		int num = 191;
 		
 		temp = num;
 		while (num > 0) {
@@ -13,8 +13,8 @@ public class Padindrom {
 			num = num / 10;
 		}
 		if (temp == sum)
-			System.out.println("this is palindrom");
+			System.out.println(temp+": this is palindrom");
 		else
-			System.out.println("it is not a palindrom");
+			System.out.println(temp+" it is NOT a palindrom");
 	}
 }
